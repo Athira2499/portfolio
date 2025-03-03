@@ -1,0 +1,30 @@
+.navbar{
+    background: black;
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.myName{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: larger;
+}
+.desktopMenuListItem:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}
+.active{
+    color: yellow;
+}
