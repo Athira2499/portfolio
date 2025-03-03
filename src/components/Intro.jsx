@@ -9,7 +9,7 @@ const Intro = () => {
             <span className="introText"> I'm <span className='introName'>Athira. C</span><br/>Full Stack Developer</span>
             <p className="introPara">I'm a skilled Full Stack Developer with experience in creating <br/> visually appealing and user friendly websites</p>
             <div className="buttonContainer">
-              <a href='src\ATHIRAResume.pdf' download>
+              <a href='C:\Users\cathi\portfolio\src\ATHIRAResume.pdf' download>
               <button className="button">Download Resume </button>
               </a>
             </div>
