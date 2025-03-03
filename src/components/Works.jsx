@@ -7,7 +7,6 @@ import Weather from '../weather.png'
 import DigitalClock from '../digitalclock.png'
 import MoodTracker from '../moodtracker.png'
 import FruitVoting from '../fruitvoting.png'
-import { Link } from 'react-scroll'
 const Works = () => {
   const images = [
     {src:Calculator, alt: 'img1', link:'https://athira2499.github.io/Calculator-app/'},
