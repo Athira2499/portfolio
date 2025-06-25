@@ -7,6 +7,8 @@ import Weather from '../weather.png'
 import DigitalClock from '../digitalclock.png'
 import MoodTracker from '../moodtracker.png'
 import FruitVoting from '../fruitvoting.png'
+import HabitTracker from '../HabitTracker.png'
+import BookRelease from '../BookRelease.png'
 const Works = () => {
   const images = [
     {src:Calculator, alt: 'img1', link:'https://athira2499.github.io/Calculator-app/'},
@@ -16,6 +18,8 @@ const Works = () => {
     {src:DigitalClock, alt: 'img5', link: 'https://athira2499.github.io/Digital-Clock/'},
     {src:MoodTracker, alt: 'img6', link: 'https://athira2499.github.io/Mood-Tracker/'},
     {src:FruitVoting, alt: 'img7', link: 'https://athira2499.github.io/Fruit-Voting/'},
+    {src:HabitTracker, alt: 'img8', link: 'https://athirahabittracker.netlify.app/'},
+    {src:BookRelease, alt: 'img9', link: 'https://aathirabookreleaseapp.netlify.app/'},
   ];
 
   const [visibleImages, setVisibleImages]=useState(3);
@@ -41,34 +45,6 @@ const Works = () => {
     </section>
     </>
   )
-    // <section id="works">
-    //     <h2 className="worksTitle">My Portfolio</h2>
-    //     <span className="worksDesc">I paid attention to even the small details and made the projects user friendly as possible</span>
-    //     <div className="worksImgs">
-    //         <a href='https://athira2499.github.io/Calculator-app/' target='_blank'>
-    //         <img src={Calculator} alt="calculator" className='worksImg'/>
-    //         </a>
-    //         <a href='https://athira2499.github.io/Image-Slider-Level2/' target='_blank'>
-    //         <img src={ImageSlider} alt="calculator" className='worksImg'/>
-    //         </a>
-    //         <a href='https://athira2499.github.io/MusicPlayer/' target='_blank'>
-    //         <img src={MusicPlayer} alt="calculator" className='worksImg'/>
-    //         </a>
-    //         <a href='https://athira2499.github.io/WeatherApp-React/' target='_blank'>
-    //         <img src={Weather} alt="calculator" className='worksImg'/>
-    //         </a>
-    //         <a href='https://athira2499.github.io/Digital-Clock/' target='_blank'>
-    //         <img src={DigitalClock} alt="calculator" className='worksImg'/>
-    //         </a>
-    //         <a href='https://athira2499.github.io/Mood-Tracker/' target='_blank'>
-    //         <img src={MoodTracker} alt="calculator" className='worksImg'/>
-    //         </a>
-    //         <a href='https://athira2499.github.io/Fruit-Voting/' target='_blank'>
-    //         <img src={FruitVoting} alt="calculator" className='worksImg'/>
-    //         </a>
-    //     </div>
-    //     <button className="workBtn">See More</button>
-    // </section>
 }
 
 export default Works
